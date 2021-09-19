@@ -6,7 +6,7 @@ const Banner = () => {
     return(
         <div className="pt-192 relative">
             <div className="absolute inset-0 w-full h-full bg-blue-400">
-                <img src={AeroplaneBanner} className="h-full w-full object-cover opacity-35"/>
+                <img src={AeroplaneBanner} className="h-full w-full object-cover opacity-35" alt="Banner"/>
             </div>
             <div className="container mx-auto px-16 relative z-10">
                 <div className="-mx-16 flex flex-wrap justify-center">

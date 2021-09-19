@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Logo from '../../../assets/images/Safarflight-logo.png';
 const Navigation = () => {
     const [navActive, setNavActive] = useState(false)

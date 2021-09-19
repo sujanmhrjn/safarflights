@@ -49,7 +49,7 @@ const Why = () => {
                                 <div className="px-16 w-full md:w-6/12 lg:w-4/12" key={i}>
                                     <div className="flex mb-40">
                                         <div className="px-16 relative py-40">
-                                            <img src={item.icon} className="w-full absolute top-0 left-0"/>
+                                            <img src={item.icon} className="w-full absolute top-0 left-0" alt={item.title}/>
                                         </div>
                                         <div className="text-white pl-24">
                                             <h3 className="font-bold mb-16">{item.title}</h3>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FiMapPin, FiSmartphone} from 'react-icons/fi';
+import {FiMapPin} from 'react-icons/fi';
 import {BsPhone} from 'react-icons/bs';
 const TopHeader = () => {
     return (
